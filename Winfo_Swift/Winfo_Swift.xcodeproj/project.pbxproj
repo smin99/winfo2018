@@ -8,20 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		56240D4221EA5FC8007CD4AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D4121EA5FC8007CD4AC /* AppDelegate.swift */; };
-		56240D4421EA5FC8007CD4AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D4321EA5FC8007CD4AC /* ViewController.swift */; };
+		56240D4421EA5FC8007CD4AC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D4321EA5FC8007CD4AC /* MainViewController.swift */; };
 		56240D4721EA5FC8007CD4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4521EA5FC8007CD4AC /* Main.storyboard */; };
 		56240D4921EA5FCB007CD4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4821EA5FCB007CD4AC /* Assets.xcassets */; };
 		56240D4C21EA5FCB007CD4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4A21EA5FCB007CD4AC /* LaunchScreen.storyboard */; };
+		56240D5521EA7DEB007CD4AC /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */; };
+		56240D5721EA7DFB007CD4AC /* CustomFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */; };
+		56240D5921EA7E0E007CD4AC /* MonthlyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */; };
+		56240D5B21EA7E22007CD4AC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */; };
+		56240D5E21EA7FB1007CD4AC /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5D21EA7FB1007CD4AC /* FoodTableViewCell.swift */; };
+		56240D6021EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5F21EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift */; };
+		56240D6221EA84F4007CD4AC /* CustomFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D6121EA84F4007CD4AC /* CustomFoodTableViewCell.swift */; };
+		562A61DE21EA986E00CABE78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 562A61DD21EA986E00CABE78 /* GoogleService-Info.plist */; };
+		562A61E021EA9D2600CABE78 /* FoodMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A61DF21EA9D2600CABE78 /* FoodMapViewController.swift */; };
+		562A61E221EA9D9500CABE78 /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A61E121EA9D9500CABE78 /* FoodDetailsViewController.swift */; };
+		562A61E621EAAA6200CABE78 /* ConfirmDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562A61E421EAAA6100CABE78 /* ConfirmDialogView.swift */; };
+		562A61E721EAAA6200CABE78 /* ConfirmDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562A61E521EAAA6100CABE78 /* ConfirmDialogView.xib */; };
+		562A61EB21EAABB800CABE78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 562A61ED21EAABB800CABE78 /* Localizable.strings */; };
+		56CAD7DF21EAAD35005A16B3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */; };
+		56CAD7E221EAAE73005A16B3 /* ControlUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAD7E121EAAE73005A16B3 /* ControlUtil.swift */; };
+		8E1D3099B1948E2B2CABA970 /* Pods_Winfo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1921A65249C6C8EFD5FD39 /* Pods_Winfo_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1921A65249C6C8EFD5FD39 /* Pods_Winfo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Winfo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DCE2AEC321249D25A7E8D3 /* Pods-Winfo_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winfo_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Winfo_Swift/Pods-Winfo_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		56240D3E21EA5FC8007CD4AC /* Winfo_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Winfo_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56240D4121EA5FC8007CD4AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56240D4321EA5FC8007CD4AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56240D4321EA5FC8007CD4AC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		56240D4621EA5FC8007CD4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56240D4821EA5FCB007CD4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56240D4B21EA5FCB007CD4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56240D4D21EA5FCB007CD4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
+		56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodViewController.swift; sourceTree = "<group>"; };
+		56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyLogViewController.swift; sourceTree = "<group>"; };
+		56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		56240D5D21EA7FB1007CD4AC /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		56240D5F21EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodsButtonTableViewCell.swift; sourceTree = "<group>"; };
+		56240D6121EA84F4007CD4AC /* CustomFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodTableViewCell.swift; sourceTree = "<group>"; };
+		562A61DD21EA986E00CABE78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		562A61DF21EA9D2600CABE78 /* FoodMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMapViewController.swift; sourceTree = "<group>"; };
+		562A61E121EA9D9500CABE78 /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		562A61E421EAAA6100CABE78 /* ConfirmDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmDialogView.swift; sourceTree = "<group>"; };
+		562A61E521EAAA6100CABE78 /* ConfirmDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmDialogView.xib; sourceTree = "<group>"; };
+		562A61EC21EAABB800CABE78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		562A61EE21EAABC700CABE78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		56CAD7E121EAAE73005A16B3 /* ControlUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUtil.swift; sourceTree = "<group>"; };
+		82C2BC09C8F1E5743263C44B /* Pods-Winfo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winfo_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Winfo_Swift/Pods-Winfo_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +64,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1D3099B1948E2B2CABA970 /* Pods_Winfo_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081A4E1F60509E4AE93B34EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A1921A65249C6C8EFD5FD39 /* Pods_Winfo_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		367FC04EC9897D20F219BEFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35DCE2AEC321249D25A7E8D3 /* Pods-Winfo_Swift.debug.xcconfig */,
+				82C2BC09C8F1E5743263C44B /* Pods-Winfo_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		56240D3521EA5FC8007CD4AC = {
 			isa = PBXGroup;
 			children = (
 				56240D4021EA5FC8007CD4AC /* Winfo_Swift */,
 				56240D3F21EA5FC8007CD4AC /* Products */,
+				367FC04EC9897D20F219BEFC /* Pods */,
+				081A4E1F60509E4AE93B34EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,77 @@
 		56240D4021EA5FC8007CD4AC /* Winfo_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				56CAD7DC21EAAD11005A16B3 /* Commons */,
+				562A61E321EAAA3900CABE78 /* DialogView */,
+				56240D5C21EA7F54007CD4AC /* TableViewCells */,
+				56240D5321EA7527007CD4AC /* ViewControllers */,
 				56240D4121EA5FC8007CD4AC /* AppDelegate.swift */,
-				56240D4321EA5FC8007CD4AC /* ViewController.swift */,
 				56240D4521EA5FC8007CD4AC /* Main.storyboard */,
 				56240D4821EA5FCB007CD4AC /* Assets.xcassets */,
 				56240D4A21EA5FCB007CD4AC /* LaunchScreen.storyboard */,
+				562A61DD21EA986E00CABE78 /* GoogleService-Info.plist */,
 				56240D4D21EA5FCB007CD4AC /* Info.plist */,
+				562A61ED21EAABB800CABE78 /* Localizable.strings */,
 			);
 			path = Winfo_Swift;
+			sourceTree = "<group>";
+		};
+		56240D5321EA7527007CD4AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */,
+				56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */,
+				56240D4321EA5FC8007CD4AC /* MainViewController.swift */,
+				56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */,
+				56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */,
+				562A61DF21EA9D2600CABE78 /* FoodMapViewController.swift */,
+				562A61E121EA9D9500CABE78 /* FoodDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56240D5C21EA7F54007CD4AC /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				56240D5D21EA7FB1007CD4AC /* FoodTableViewCell.swift */,
+				56240D5F21EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift */,
+				56240D6121EA84F4007CD4AC /* CustomFoodTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		562A61E321EAAA3900CABE78 /* DialogView */ = {
+			isa = PBXGroup;
+			children = (
+				562A61E421EAAA6100CABE78 /* ConfirmDialogView.swift */,
+				562A61E521EAAA6100CABE78 /* ConfirmDialogView.xib */,
+			);
+			path = DialogView;
+			sourceTree = "<group>";
+		};
+		56CAD7DC21EAAD11005A16B3 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				56CAD7DD21EAAD15005A16B3 /* Extensions */,
+				56CAD7E021EAAE5F005A16B3 /* Utilities */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		56CAD7DD21EAAD15005A16B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56CAD7E021EAAE5F005A16B3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				56CAD7E121EAAE73005A16B3 /* ControlUtil.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56240D5021EA5FCB007CD4AC /* Build configuration list for PBXNativeTarget "Winfo_Swift" */;
 			buildPhases = (
+				FE9254AE4CAC7FFA3264C0FF /* [CP] Check Pods Manifest.lock */,
 				56240D3A21EA5FC8007CD4AC /* Sources */,
 				56240D3B21EA5FC8007CD4AC /* Frameworks */,
 				56240D3C21EA5FC8007CD4AC /* Resources */,
+				F500FC2F466E386719737928 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -106,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 56240D3521EA5FC8007CD4AC;
 			productRefGroup = 56240D3F21EA5FC8007CD4AC /* Products */;
@@ -122,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562A61E721EAAA6200CABE78 /* ConfirmDialogView.xib in Resources */,
+				562A61EB21EAABB800CABE78 /* Localizable.strings in Resources */,
 				56240D4C21EA5FCB007CD4AC /* LaunchScreen.storyboard in Resources */,
+				562A61DE21EA986E00CABE78 /* GoogleService-Info.plist in Resources */,
 				56240D4921EA5FCB007CD4AC /* Assets.xcassets in Resources */,
 				56240D4721EA5FC8007CD4AC /* Main.storyboard in Resources */,
 			);
@@ -130,13 +254,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F500FC2F466E386719737928 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Winfo_Swift/Pods-Winfo_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EZLoadingActivity/EZLoadingActivity.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZLoadingActivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Winfo_Swift/Pods-Winfo_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9254AE4CAC7FFA3264C0FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Winfo_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56240D3A21EA5FC8007CD4AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56240D4421EA5FC8007CD4AC /* ViewController.swift in Sources */,
+				56240D6221EA84F4007CD4AC /* CustomFoodTableViewCell.swift in Sources */,
+				56240D5921EA7E0E007CD4AC /* MonthlyLogViewController.swift in Sources */,
+				56240D4421EA5FC8007CD4AC /* MainViewController.swift in Sources */,
+				562A61E621EAAA6200CABE78 /* ConfirmDialogView.swift in Sources */,
+				562A61E221EA9D9500CABE78 /* FoodDetailsViewController.swift in Sources */,
+				56240D5521EA7DEB007CD4AC /* ScanningViewController.swift in Sources */,
+				56240D5E21EA7FB1007CD4AC /* FoodTableViewCell.swift in Sources */,
 				56240D4221EA5FC8007CD4AC /* AppDelegate.swift in Sources */,
+				56240D6021EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift in Sources */,
+				562A61E021EA9D2600CABE78 /* FoodMapViewController.swift in Sources */,
+				56240D5721EA7DFB007CD4AC /* CustomFoodViewController.swift in Sources */,
+				56CAD7E221EAAE73005A16B3 /* ControlUtil.swift in Sources */,
+				56CAD7DF21EAAD35005A16B3 /* StringExtension.swift in Sources */,
+				56240D5B21EA7E22007CD4AC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +354,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		562A61ED21EAABB800CABE78 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562A61EC21EAABB800CABE78 /* en */,
+				562A61EE21EAABC700CABE78 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -166,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -213,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -268,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,6 +486,7 @@
 		};
 		56240D5121EA5FCB007CD4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DCE2AEC321249D25A7E8D3 /* Pods-Winfo_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,7 +496,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "minhwang.com.Winfo-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhwang.uptheriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,6 +505,7 @@
 		};
 		56240D5221EA5FCB007CD4AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C2BC09C8F1E5743263C44B /* Pods-Winfo_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "minhwang.com.Winfo-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhwang.uptheriver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
