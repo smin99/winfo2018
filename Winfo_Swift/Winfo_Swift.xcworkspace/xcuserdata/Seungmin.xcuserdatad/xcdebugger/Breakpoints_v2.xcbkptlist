@@ -9,29 +9,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Winfo_Swift/ViewControllers/MainViewController.swift"
-            timestampString = "569029456.1715569"
+            filePath = "Winfo_Swift/ViewControllers/ScanningViewController.swift"
+            timestampString = "569033034.1482151"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "searchSelected(_:)"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Winfo_Swift/ViewControllers/MainViewController.swift"
-            timestampString = "569029456.93586"
+            filePath = "Winfo_Swift/ViewControllers/ScanningViewController.swift"
+            timestampString = "569033034.148596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "cameraSelected(_:)"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "metadataOutput(_:didOutput:from:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -85,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ca-OB-RZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3726" y="-620"/>
+            <point key="canvasLocation" x="3113" y="-620"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="FiS-PX-eXN">
@@ -95,132 +95,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1pp-n7-cQa">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodTableViewCell" rowHeight="60" id="qX8-Mq-u4C" customClass="FoodTableViewCell" customModule="Winfo_Swift" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qX8-Mq-u4C" id="EHy-nW-4au">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nde-bJ-jIj">
-                                                    <rect key="frame" x="8" y="8" width="44" height="44"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="44" id="06o-P1-qCl"/>
-                                                        <constraint firstAttribute="height" constant="44" id="oV2-lq-Bgb"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMa-0n-oEi">
-                                                    <rect key="frame" x="60" y="8" width="269" height="20"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnB-Th-Uj0">
-                                                    <rect key="frame" x="60" y="36" width="269" height="16"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QqW-RA-YJI">
-                                                    <rect key="frame" x="337" y="15" width="30" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="CiT-ET-4pK"/>
-                                                        <constraint firstAttribute="height" constant="30" id="Ipm-jo-LYk"/>
-                                                    </constraints>
-                                                    <state key="normal" title="?"/>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Nde-bJ-jIj" firstAttribute="top" secondItem="EHy-nW-4au" secondAttribute="top" constant="8" id="C4A-SD-ZSJ"/>
-                                                <constraint firstItem="Nde-bJ-jIj" firstAttribute="leading" secondItem="EHy-nW-4au" secondAttribute="leading" constant="8" id="GJu-13-DQO"/>
-                                                <constraint firstItem="QqW-RA-YJI" firstAttribute="leading" secondItem="fnB-Th-Uj0" secondAttribute="trailing" constant="8" id="PXO-AG-RTw"/>
-                                                <constraint firstItem="EMa-0n-oEi" firstAttribute="leading" secondItem="Nde-bJ-jIj" secondAttribute="trailing" constant="8" id="QDz-cb-QIV"/>
-                                                <constraint firstItem="QqW-RA-YJI" firstAttribute="leading" secondItem="EMa-0n-oEi" secondAttribute="trailing" constant="8" id="W2i-tF-Zpa"/>
-                                                <constraint firstItem="QqW-RA-YJI" firstAttribute="centerY" secondItem="EHy-nW-4au" secondAttribute="centerY" id="YJL-1Y-v2Y"/>
-                                                <constraint firstItem="fnB-Th-Uj0" firstAttribute="leading" secondItem="Nde-bJ-jIj" secondAttribute="trailing" constant="8" id="hs3-mw-TsQ"/>
-                                                <constraint firstAttribute="trailing" secondItem="QqW-RA-YJI" secondAttribute="trailing" constant="8" id="jgY-Xn-W3W"/>
-                                                <constraint firstItem="EMa-0n-oEi" firstAttribute="top" secondItem="EHy-nW-4au" secondAttribute="top" constant="8" id="ug8-h5-VbW"/>
-                                                <constraint firstItem="fnB-Th-Uj0" firstAttribute="top" secondItem="EMa-0n-oEi" secondAttribute="bottom" constant="8" id="yY3-Yd-fXn"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AddFoodsButtonTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddFoodsButtonTableViewCell" rowHeight="60" id="xGb-2w-ehj" customClass="AddFoodsButtonTableViewCell" customModule="Winfo_Swift" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="60"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xGb-2w-ehj" id="Bu7-eo-7hj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4G-wr-vd4">
-                                                    <rect key="frame" x="100" y="8" width="32" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="32" id="fzE-AX-meJ"/>
-                                                        <constraint firstAttribute="width" constant="32" id="ik8-Kc-IDM"/>
-                                                    </constraints>
-                                                    <state key="normal" image="CameraIcon"/>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9n-DS-e6H">
-                                                    <rect key="frame" x="243" y="8" width="32" height="32"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="32" id="VH5-Bk-W7s"/>
-                                                        <constraint firstAttribute="height" constant="32" id="bvX-4Y-lNE"/>
-                                                    </constraints>
-                                                    <state key="normal" title="Button" image="SearchIcon"/>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="a4G-wr-vd4" firstAttribute="leading" secondItem="Bu7-eo-7hj" secondAttribute="leading" constant="100" id="1sU-JK-6KO"/>
-                                                <constraint firstItem="a4G-wr-vd4" firstAttribute="top" secondItem="Bu7-eo-7hj" secondAttribute="top" constant="8" id="811-bp-Ta9"/>
-                                                <constraint firstAttribute="trailing" secondItem="F9n-DS-e6H" secondAttribute="trailing" constant="100" id="Dq8-j8-eMu"/>
-                                                <constraint firstItem="F9n-DS-e6H" firstAttribute="top" secondItem="Bu7-eo-7hj" secondAttribute="top" constant="8" id="ger-ne-zrM"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="cameraButton" destination="a4G-wr-vd4" id="JkE-9B-ITg"/>
-                                            <outlet property="searchButton" destination="F9n-DS-e6H" id="WMk-Xj-4Gi"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="1pp-n7-cQa" firstAttribute="leading" secondItem="pO7-XD-EGy" secondAttribute="leading" id="Fqh-Xi-noI"/>
-                            <constraint firstItem="pO7-XD-EGy" firstAttribute="bottom" secondItem="1pp-n7-cQa" secondAttribute="bottom" id="W4t-MB-wDa"/>
-                            <constraint firstItem="1pp-n7-cQa" firstAttribute="top" secondItem="pO7-XD-EGy" secondAttribute="top" id="dUd-zQ-Y3E"/>
-                            <constraint firstItem="pO7-XD-EGy" firstAttribute="trailing" secondItem="1pp-n7-cQa" secondAttribute="trailing" id="s1D-I4-5rv"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="pO7-XD-EGy"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="8C0-26-Awt"/>
-                    <connections>
-                        <outlet property="tableView" destination="1pp-n7-cQa" id="mPG-Da-6eD"/>
-                        <segue destination="106-Ab-2tV" kind="show" identifier="CustomFoodSegue" id="Zgj-fK-3ka"/>
-                        <segue destination="LNs-ne-ZhQ" kind="show" identifier="ScanningSegue" id="gha-yT-6TU"/>
-                        <segue destination="5MA-54-y2v" kind="show" identifier="MonthlyLogSegue" id="j8d-jZ-pEv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b43-dU-Lfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="920.79999999999995" y="133.5832083958021"/>
-        </scene>
-        <!--Scanning View Controller-->
-        <scene sceneID="DVe-K2-BBd">
-            <objects>
-                <viewController storyboardIdentifier="ScanningViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LNs-ne-ZhQ" customClass="ScanningViewController" customModule="Winfo_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fMG-fE-Kqa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8g-QT-S7d">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erE-KH-dhD">
                                 <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="4bg-E1-4tU"/>
+                                    <constraint firstAttribute="height" constant="50" id="5Op-JY-GWb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -229,20 +108,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="M8g-QT-S7d" firstAttribute="leading" secondItem="y3F-2l-RMz" secondAttribute="leading" id="7Ih-dZ-6UN"/>
-                            <constraint firstItem="y3F-2l-RMz" firstAttribute="trailing" secondItem="M8g-QT-S7d" secondAttribute="trailing" id="AUj-GU-YRT"/>
-                            <constraint firstItem="y3F-2l-RMz" firstAttribute="bottom" secondItem="M8g-QT-S7d" secondAttribute="bottom" id="oyz-5q-cMM"/>
+                            <constraint firstItem="erE-KH-dhD" firstAttribute="bottom" secondItem="pO7-XD-EGy" secondAttribute="bottom" id="7TL-fM-rB9"/>
+                            <constraint firstItem="erE-KH-dhD" firstAttribute="trailing" secondItem="pO7-XD-EGy" secondAttribute="trailing" id="Wut-c7-Gkz"/>
+                            <constraint firstItem="erE-KH-dhD" firstAttribute="leading" secondItem="pO7-XD-EGy" secondAttribute="leading" id="YyY-nf-1lG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="y3F-2l-RMz"/>
+                        <viewLayoutGuide key="safeArea" id="pO7-XD-EGy"/>
                     </view>
+                    <navigationItem key="navigationItem" id="8C0-26-Awt"/>
                     <connections>
-                        <outlet property="messageLabel" destination="M8g-QT-S7d" id="Qj0-te-7QT"/>
-                        <segue destination="Qu3-JP-1CM" kind="show" identifier="FoodDetailsSegue" id="6jP-Ko-RYB"/>
+                        <outlet property="messageLabel" destination="erE-KH-dhD" id="xuH-Nz-zBi"/>
+                        <segue destination="106-Ab-2tV" kind="show" identifier="CustomFoodSegue" id="Zgj-fK-3ka"/>
+                        <segue destination="5MA-54-y2v" kind="show" identifier="MonthlyLogSegue" id="j8d-jZ-pEv"/>
+                        <segue destination="Qu3-JP-1CM" kind="show" identifier="FoodDetailsSegue" id="jAf-lC-GlS"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cHb-M3-cyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b43-dU-Lfu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1844" y="134"/>
+            <point key="canvasLocation" x="920.79999999999995" y="133.5832083958021"/>
         </scene>
         <!--Monthly Log View Controller-->
         <scene sceneID="rcc-76-0wA">
@@ -281,14 +163,25 @@
             </objects>
             <point key="canvasLocation" x="1844" y="872"/>
         </scene>
-        <!--View Controller-->
+        <!--Food Details View Controller-->
         <scene sceneID="lk3-eJ-av2">
             <objects>
-                <viewController id="Qu3-JP-1CM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FoodDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qu3-JP-1CM" customClass="FoodDetailsViewController" customModule="Winfo_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fEl-d0-Vgn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Temp_FoodDetails" translatesAutoresizingMaskIntoConstraints="NO" id="tDr-12-swl">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="liW-6W-wR3" firstAttribute="trailing" secondItem="tDr-12-swl" secondAttribute="trailing" id="2qt-h6-sKo"/>
+                            <constraint firstItem="liW-6W-wR3" firstAttribute="bottom" secondItem="tDr-12-swl" secondAttribute="bottom" id="DbM-VJ-eHg"/>
+                            <constraint firstItem="tDr-12-swl" firstAttribute="leading" secondItem="liW-6W-wR3" secondAttribute="leading" id="Kec-uA-35v"/>
+                            <constraint firstItem="tDr-12-swl" firstAttribute="top" secondItem="liW-6W-wR3" secondAttribute="top" id="WKd-Bq-dBp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="liW-6W-wR3"/>
                     </view>
                     <connections>
@@ -298,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="khP-av-flC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2774" y="134"/>
+            <point key="canvasLocation" x="1844" y="134"/>
         </scene>
         <!--Food Map View Controller-->
         <scene sceneID="dtn-N6-Nn8">
@@ -307,17 +200,28 @@
                     <view key="view" contentMode="scaleToFill" id="NLa-mG-cvl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Temp_Map" translatesAutoresizingMaskIntoConstraints="NO" id="2rr-Fb-rPK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2rr-Fb-rPK" firstAttribute="top" secondItem="gAD-zR-h52" secondAttribute="top" id="GJ5-fB-mGk"/>
+                            <constraint firstItem="2rr-Fb-rPK" firstAttribute="leading" secondItem="gAD-zR-h52" secondAttribute="leading" id="JJu-Hy-PCC"/>
+                            <constraint firstItem="gAD-zR-h52" firstAttribute="trailing" secondItem="2rr-Fb-rPK" secondAttribute="trailing" id="ln9-RR-aJ1"/>
+                            <constraint firstItem="gAD-zR-h52" firstAttribute="bottom" secondItem="2rr-Fb-rPK" secondAttribute="bottom" id="zjm-Ej-Lfn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gAD-zR-h52"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qrp-3s-lLD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3726" y="134"/>
+            <point key="canvasLocation" x="3114" y="134"/>
         </scene>
     </scenes>
     <resources>
-        <image name="CameraIcon" width="23" height="23"/>
-        <image name="SearchIcon" width="18" height="18"/>
+        <image name="Temp_FoodDetails" width="545.4000244140625" height="774.5999755859375"/>
+        <image name="Temp_Map" width="337.20001220703125" height="456.60000610351562"/>
     </resources>
 </document>

@@ -12,7 +12,6 @@
 		56240D4721EA5FC8007CD4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4521EA5FC8007CD4AC /* Main.storyboard */; };
 		56240D4921EA5FCB007CD4AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4821EA5FCB007CD4AC /* Assets.xcassets */; };
 		56240D4C21EA5FCB007CD4AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56240D4A21EA5FCB007CD4AC /* LaunchScreen.storyboard */; };
-		56240D5521EA7DEB007CD4AC /* ScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */; };
 		56240D5721EA7DFB007CD4AC /* CustomFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */; };
 		56240D5921EA7E0E007CD4AC /* MonthlyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */; };
 		56240D5B21EA7E22007CD4AC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */; };
@@ -27,6 +26,7 @@
 		562A61EB21EAABB800CABE78 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 562A61ED21EAABB800CABE78 /* Localizable.strings */; };
 		56CAD7DF21EAAD35005A16B3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */; };
 		56CAD7E221EAAE73005A16B3 /* ControlUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAD7E121EAAE73005A16B3 /* ControlUtil.swift */; };
+		56CAD7E621EAB771005A16B3 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAD7E521EAB770005A16B3 /* UIViewControllerExtension.swift */; };
 		8E1D3099B1948E2B2CABA970 /* Pods_Winfo_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1921A65249C6C8EFD5FD39 /* Pods_Winfo_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 		56240D4821EA5FCB007CD4AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56240D4B21EA5FCB007CD4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56240D4D21EA5FCB007CD4AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningViewController.swift; sourceTree = "<group>"; };
 		56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFoodViewController.swift; sourceTree = "<group>"; };
 		56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyLogViewController.swift; sourceTree = "<group>"; };
 		56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		562A61EE21EAABC700CABE78 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		56CAD7E121EAAE73005A16B3 /* ControlUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlUtil.swift; sourceTree = "<group>"; };
+		56CAD7E521EAB770005A16B3 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		82C2BC09C8F1E5743263C44B /* Pods-Winfo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Winfo_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Winfo_Swift/Pods-Winfo_Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,6 @@
 				56240D5821EA7E0E007CD4AC /* MonthlyLogViewController.swift */,
 				56240D5621EA7DFB007CD4AC /* CustomFoodViewController.swift */,
 				56240D4321EA5FC8007CD4AC /* MainViewController.swift */,
-				56240D5421EA7DEB007CD4AC /* ScanningViewController.swift */,
 				56240D5A21EA7E22007CD4AC /* SettingsViewController.swift */,
 				562A61DF21EA9D2600CABE78 /* FoodMapViewController.swift */,
 				562A61E121EA9D9500CABE78 /* FoodDetailsViewController.swift */,
@@ -170,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				56CAD7DE21EAAD35005A16B3 /* StringExtension.swift */,
+				56CAD7E521EAB770005A16B3 /* UIViewControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -323,8 +323,8 @@
 				56240D4421EA5FC8007CD4AC /* MainViewController.swift in Sources */,
 				562A61E621EAAA6200CABE78 /* ConfirmDialogView.swift in Sources */,
 				562A61E221EA9D9500CABE78 /* FoodDetailsViewController.swift in Sources */,
-				56240D5521EA7DEB007CD4AC /* ScanningViewController.swift in Sources */,
 				56240D5E21EA7FB1007CD4AC /* FoodTableViewCell.swift in Sources */,
+				56CAD7E621EAB771005A16B3 /* UIViewControllerExtension.swift in Sources */,
 				56240D4221EA5FC8007CD4AC /* AppDelegate.swift in Sources */,
 				56240D6021EA8234007CD4AC /* AddFoodsButtonTableViewCell.swift in Sources */,
 				562A61E021EA9D2600CABE78 /* FoodMapViewController.swift in Sources */,

@@ -33,3 +33,9 @@
 "Do you really want to delete this label? It will delete all tasks and items belonged to it."="Do you really want to delete this label? It will delete all tasks and items belonged to it.";
 "Type the Barcode Number"="Type the Barcode Number";
 "Barcode Number"="Barcode Number";
+
+// Camera Scan View
+"Scanning"="Scanning";
+"Camera Error"="Camera Error";
+"No camera access. Change your setting for the camera."="No camera access. Change your setting for the camera.";
+"Slowly move the equipment until the camera is focused. Don't take it too close."="Slowly move the equipment until the camera is focused. Don't take it too close.";
